@@ -1,0 +1,54 @@
+
+.media-s{
+    background-color: #FFF;
+    height: 30rem;
+    padding: 4rem;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.about-s{
+    background-color: #FFF;
+    height: 3rem;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.contact-s{
+    margin-top: 1rem;
+    padding-top: 2rem;
+    height: 25rem;
+    background-color: white;
+}
+
+#contactUsPagelist{
+    list-style: none;
+    font-family: cursive;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+#location{
+    background-color: #000;
+    color: white;
+    position: absolute;
+    margin-top: -15rem;
+    right: 2rem;
+    height: 20rem;
+    width: 50%;
+}
+
+
+@media screen and ( max-width: 1025px){
+
+.contact-s{
+    height: 40rem;
+    background-color: white;
+}
+#location{
+    margin-top: 3rem;
+    left: 1rem;
+    height: 20rem;
+    width: 20rem;
+    
+}
+}
