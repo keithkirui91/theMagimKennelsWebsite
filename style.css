@@ -609,4 +609,199 @@ a{
 }
 #bottomhr{
     margin-top: 6rem;
-}    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsiveness*/
+/*SECTION HEADING*/
+
+@media screen and ( max-width: 1025px){
+
+    
+
+    .menuclicker{
+        margin-top: 1rem;
+        height: 3rem;
+        width: 3rem;
+        background-color: sienna;
+    
+        }
+    .menuclicker:hover{
+        background-color: silver;
+        transition: .7s;
+    
+        }
+        #mainH{
+            font-size: 4rem;
+        
+        }
+        .separatorhr{
+            display: block;
+        
+        }
+    
+    .writing{
+        padding: 0rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        
+        
+        
+    
+    }
+    .writing-left{
+        padding: 0rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    .first-s{
+        height: 40rem;
+    }
+    .second-s{
+        height: 40rem;
+    
+    }
+    .third-s{
+        height: 43.5rem;
+    
+    }
+    .lefts{
+        width: 90%;
+    
+        
+    }
+    .rights{
+        margin-right: 4rem;
+        text-align: left;
+        width: 90%;
+       
+    
+    }
+    #imgOne{
+        
+        margin-top: 5rem;
+        left: auto;
+        right: auto;
+        height: 20rem;
+        width: 20rem;
+    }
+    #imgTwo{
+        
+        margin-top: 5rem;
+        height: 20rem;
+        width: 20rem;
+    
+    }
+    #imgThree{
+        margin-top: 4rem;
+        left: auto;
+        right: auto;
+        height: 20rem;
+        width: 20rem;
+    
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    
+    .maindrop-li{
+        background-color: rgb(65, 65, 65);
+        margin-top: 4rem;
+        text-align: left;
+        display: block;
+        color: ivory;
+        line-height: 4rem;
+        width: 60%;
+        top: 0rem;
+        padding: .5rem;
+        left: 0rem;
+        position: absolute;
+        z-index: 30;
+        animation: fadeDown .8s forwards;
+    }
+    
+    .toggler{
+        margin-top: 1rem;
+        display: block;
+    }
+    .siteDiv{
+       left: 1rem;
+       font-size: 1rem;
+    }
+    .numberDiv{
+        right: 1rem;
+        font-size: 1rem;
+      
+    }
+    .m-menu{
+        word-spacing: 0;
+    }
+    
+    .top-i{
+        display: none;
+    }
+    #top-iTwo{
+        margin-top: 2rem;
+        font-size: 2rem;
+        color: red;
+        display: block;
+    }
+    
+    footer{
+        height: 40rem;
+        font-size: 1rem;
+        
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    .btm-list{
+        margin-top: 2rem;
+        width: 100%;
+        line-height: 4rem;
+        left: 0rem;
+    }
+    
+    .btm-listrt{
+        margin-top: 18rem;
+        left: .5rem;
+        text-align: left;
+        
+        
+    }
+    .btm-listrtl{
+        margin-top: 33rem;
+        width: 100%;
+        text-align: left;
+        left: 0rem;
+    }
+    .btm-items{
+        line-height: 1.8rem;
+        
+    
+    }
+    .signup{
+        margin-top: 43rem;
+    }
+    .submit-btn{
+        margin-top: 1rem;
+    }
+    #bottomhr{
+        margin-top: 3rem;
+    }
+    }
+    
