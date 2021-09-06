@@ -804,4 +804,28 @@ a{
         margin-top: 3rem;
     }
     }
-    
+
+
+
+/*ANIMATIONS*/
+@keyframes fadeDown{
+    0%{
+        transform: translateY(-4rem);
+        opacity: 0;
+    }
+    50%{
+        opacity: .3;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.siteDiv{
+
+    font-weight: 300;
+}    
