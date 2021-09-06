@@ -1,0 +1,26 @@
+html{
+    background: #000;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+.siteDiv{
+    position: absolute;
+    font-weight: 300;
+    font-size: 1rem;
+    left: 1rem;
+    color: whitesmoke;
+    z-index: 17;
+}
+.numberDiv{
+    position: absolute;
+    font-size: 1.2rem;
+    right: 3rem;
+    color: whitesmoke;
+    z-index: 17;
+}
+.callus-img{
+    height: 1.5rem;
+    color: seashell;
+    border-radius: 30%;
+    background-color: seashell;
+}
