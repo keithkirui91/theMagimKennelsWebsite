@@ -318,4 +318,41 @@ a:hover{
     
     
     
+
+
+/*sections*/
+/* FIRST SECTION*/
+.first-s{
+    height: 25rem;
+    max-width: 100%;
+    background: #FFF;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: .5%;
+
+}
+/* SECOND SECTION*/
+.second-s{
+    height: 25rem;
+    max-width: 100%;
+    background: #fff;
+    text-align: right;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: .5%;
+
+}
+/* THIRD SECTION*/
+.third-s{
+    height: 27rem;
+    max-width: 100%;
+    background: #FFF;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: .5%;
+
+}
     
