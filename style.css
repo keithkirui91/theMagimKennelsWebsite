@@ -122,3 +122,200 @@ a:hover{
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
       display: block;}
+
+
+
+      ul#menu li{
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+        padding: 1rem;
+    }
+    #mainH{
+        font-size: 4.7rem;
+    
+    }
+    #subH{
+        font-size: 2rem;
+    
+    }
+    /*TITLES*/
+    
+    .dogstitle{
+        display: inherit;
+    
+    }
+    .titlehr{
+        margin: 1rem;
+    }
+    .bloodhound{
+        font-size: 4rem;
+        padding: 1rem;
+    
+    }
+    .separatorhr{
+        display: none;
+    
+    }
+    
+    
+    
+    /*slides*/
+    h2{
+        font-size: 4rem;
+    }
+    #frame {
+        
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        
+    }
+    
+      
+    #frame input[type=radio] {
+        display: none;
+        margin-top: 0rem;
+    }
+      
+    #frame label {
+        cursor: pointer;
+        
+    }
+    
+    #overflow {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    #slides {
+        height: 40rem;
+        padding: 1px;
+        max-width: 100%;
+        border: 1px solid rgb(0, 0, 0);
+        background: rgb(2, 2, 34);
+        position: inherit;
+        z-index: 1;
+        
+    }
+      
+    
+    #frame1:checked~#slides .inner {
+        margin-left: 0;
+    }
+      
+    #frame2:checked~#slides .inner {
+        margin-left: -100%;
+    }
+      
+    #frame3:checked~#slides .inner {
+        margin-left: -200%;
+    }
+      
+    #frame4:checked~#slides .inner {
+        margin-left: -300%;
+    }
+      
+    #slides .inner {
+        transition: margin-left 800ms 
+            cubic-bezier(0.770, 0.000, 0.175, 1.000);
+        width: 400%;
+        line-height: 0;
+        height: 500px;
+    }
+      
+    #slides .frame {
+        width: 25%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: #FFF;
+    }
+      
+    #slides .frame_1 {
+        background: url(images/big.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+      
+    #slides .frame_2 {
+        background: url(images/menen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+      
+    #slides .frame_3 {
+        background:url(images/pup4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+      
+    #slides .frame_4 {
+        background: url(images/lulu.png);
+        background-size: inherit;
+        background-repeat: no-repeat;
+    }
+      
+    
+      
+    #frame1:checked~#controls label:nth-child(2),
+    #frame2:checked~#controls label:nth-child(3),
+    #frame3:checked~#controls label:nth-child(4),
+    #frame4:checked~#controls label:nth-child(1) {
+        background: url(images/marathon.jpg) no-repeat;
+        float: right;
+        margin: 0 -50px 0 0;
+        display: block;
+    }
+      
+    #frame1:checked~#controls label:nth-last-child(2),
+    #frame2:checked~#controls label:nth-last-child(3),
+    #frame3:checked~#controls label:nth-last-child(4),
+    #frame4:checked~#controls label:nth-last-child(1) {
+        background: url(images/nip.jpg) no-repeat;
+        float: left;
+        margin: 0 0 0 -50px;
+        display: block;
+    }
+      
+    #bullets {
+        margin: 10px;
+        text-align: center;
+    }
+      
+    #bullets label {
+        
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: rgb(255, 255, 255);
+        margin: 6rem 15px;
+        
+    }
+    
+    
+    #bullets label:hover{
+        background: red;
+        transition: .4s;
+        
+    
+    }
+      
+    #frame1:checked~#bullets label:nth-child(1),
+    #frame2:checked~#bullets label:nth-child(2),
+    #frame3:checked~#bullets label:nth-child(3),
+    #frame4:checked~#bullets label:nth-child(4) {
+        background: #444;
+    }
+    h3{
+        font-size: 2rem;
+        animation: fadeUp 1.1 forwards;
+        animation-delay: 3.4s;
+    }
+    
+    
+    
+    
