@@ -355,4 +355,114 @@ a:hover{
     border-radius: .5%;
 
 }
+
+/*SECTION HEADING*/
+.writing{
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    
+    
+
+}
+.writing-left{
+    margin-right: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*SECTION P*/
+.lefts{
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 2rem;
+    color:rgb(88, 86, 86);
+    width: 45%;
+
+    
+}
+.rights{
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 2rem;
+    color:rgb(88, 86, 86);
+}
+
+
+a{
+    text-decoration: none;
+}
+.links-right{
+    font-size: 1.4rem;
+    color: rgb(139, 30, 30);
+    font-family: cursive;
+    padding-right: 2rem;
+    position: absolute;
+    margin-top: 1rem;
+    right: 1rem;
+    
+}
+.links-left{
+    position: absolute;
+    font-size: 1.4rem;
+    color: rgb(158, 29, 29);
+    font-family: cursive;
+    padding-left: 2rem;
+    
+    
+}
+
+.links-right:hover{
+    color: rgb(255, 0, 0);
+    transition: .5s;
+    cursor: pointer;
+    
+    
+}
+.links-left:hover{
+    color: rgb(255, 1, 1);
+    transition: .5s;
+    cursor: pointer;
+    
+}
+
+
+/*HOUNDS SECTION*/
+.meetOurHounds{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+
+
+}
+
+
+#imgOne{
+    background-color: #000;
+    position: absolute;
+    margin-top: -10rem;
+    right: 2rem;
+    height: 20rem;
+    width: 50%;
+}
+#imgTwo{
+    background-color: #000;
+    position: absolute;
+    margin-top: -10rem;
+    height: 20rem;
+    width: 50%;
+
+}
+#imgThree{
+    background-color: #000;
+    position: absolute;
+    margin-top: -12rem;
+    right: 2rem;
+    height: 20rem;
+    width: 50%;
+
+}
     
