@@ -24,3 +24,54 @@ html{
     border-radius: 30%;
     background-color: seashell;
 }
+.toggler{
+    display: none;
+}
+button{
+    margin-left: .5rem;
+    background-color: rgb(88, 88, 88);
+    height: 2rem;
+    width: 3rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 4px;
+}
+
+.m-menu{
+    
+    font-family: cursive;
+    max-width: 100%;
+    text-align: center;
+    word-spacing: .5rem;
+    height: 0rem;  
+    padding: .5rem;
+    z-index: 1;
+    
+    
+}
+a{
+    color: ivory;
+    font-weight: 800;
+    font-family: cursive;
+
+}
+a:hover{
+    border-radius: 6px;
+    color: #790a0a;
+    transition: .4s;
+}
+.current{
+    color: #790a0a;
+}
+.s-li{
+    background-color: rgb(0, 0, 0);
+    font-size: 1rem;
+    color: ivory;
+    width: 100%;
+    top: 0rem;
+    padding: .5rem;
+    left: 0rem;
+    position: absolute;
+}
