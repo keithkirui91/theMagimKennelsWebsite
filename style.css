@@ -465,4 +465,148 @@ a{
     width: 50%;
 
 }
+
+
+
+/*FOOTER*/
+h3{
+    padding-left: 2.4rem;
+    font-size: 1.4rem;
+    margin-bottom: -.5rem;
+    text-decoration: none;
+}
+.btm-list{
+    position: absolute;
+    color: rgb(201, 190, 190);
+    left: 2.1rem;
+    text-align: left;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 1rem;
+    word-spacing: 10px;
+}
+.btm-items{
+    list-style-type: none;
+    font-size: 1rem;
+    line-height: 3rem;
+    left: .7rem;
+
+}
+.btm-listrt{
+    position: absolute;
+    color: rgb(201, 190, 190);
+    right: 16rem;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 1rem;
     
+}
+.btm-listrtl{
+    position: absolute;
+    color: rgb(201, 190, 190);
+    right: 1rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 1rem;
+}
+ul{
+    display: inline-block;
+}
+
+
+footer{
+    font-family: cursive;
+    height: 25rem;
+    max-width: 100%;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: #FFF;
+}
+
+.f-text{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: snow;
+}
+
+
+.email{
+    width: 19rem;
+    height: 1.8rem;
+    margin-right: .7rem;
+    padding: 0rem;
+    border: 0rem;
+  
+    
+}
+
+
+.submit-btn{
+  background-color: rgb(184, 8, 8);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30%;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+.insta{
+    color: ivory;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: #575555;
+    transition: .6s;
+}
+.top-i{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -2rem;
+    font-size: 2rem;
+    padding: 0rem;
+    color: rgb(204, 0, 0);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+.top-i:hover{
+    color: rgb(112, 112, 112);
+}
+#top-iTwo{
+    display: none;
+}
+
+/*social icons*/
+
+.f-li{
+    list-style: none;
+    /*Get rid of bullets*/
+    margin-right: 2.7rem;
+    font-size: 2.3rem;
+    display: inline;
+}
+
+.f-li:hover{
+    color: #ff0000;
+    transition: .4s;
+}
+#bottomhr{
+    margin-top: 6rem;
+}    
