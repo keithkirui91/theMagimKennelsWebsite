@@ -28,13 +28,15 @@ html{
     display: none;
 }
 button{
+    top: 1rem;
     margin-left: .5rem;
-    background-color: rgb(88, 88, 88);
-    height: 2rem;
-    width: 3rem;
+    background-color: rgb(116, 116, 116);
+    height: 2.3rem;
+    width: 3.3rem;
     border: none;
     border-radius: 5px;
     color: rgb(0, 0, 0);
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 4px;
 }
@@ -125,199 +127,199 @@ a:hover{
 
 
 
-      ul#menu li{
-        text-decoration: none;
-        list-style: none;
-        display: inline;
-        padding: 1rem;
-    }
-    #mainH{
-        font-size: 4.7rem;
+ul#menu li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+#mainH{
+    font-size: 4.7rem;
+
+}
+#subH{
+    font-size: 2rem;
+
+}
+/*TITLES*/
+
+.dogstitle{
+    display: inherit;
+
+}
+.titlehr{
+    margin: 1rem;
+}
+.bloodhound{
+    font-size: 4rem;
+    padding: 1rem;
+
+}
+.separatorhr{
+    display: none;
+
+}
+
+
+
+/*slides*/
+h2{
+    font-size: 4rem;
+}
+#frame {
     
-    }
-    #subH{
-        font-size: 2rem;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
     
-    }
-    /*TITLES*/
+}
+
+  
+#frame input[type=radio] {
+    display: none;
+    margin-top: 0rem;
+}
+  
+#frame label {
+    cursor: pointer;
     
-    .dogstitle{
-        display: inherit;
+}
+
+#overflow {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#slides {
+    height: 40rem;
+    padding: 1px;
+    max-width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(2, 2, 34);
+    position: inherit;
+    z-index: 1;
     
-    }
-    .titlehr{
-        margin: 1rem;
-    }
-    .bloodhound{
-        font-size: 4rem;
-        padding: 1rem;
+}
+  
+
+#frame1:checked~#slides .inner {
+    margin-left: 0;
+}
+  
+#frame2:checked~#slides .inner {
+    margin-left: -100%;
+}
+  
+#frame3:checked~#slides .inner {
+    margin-left: -200%;
+}
+  
+#frame4:checked~#slides .inner {
+    margin-left: -300%;
+}
+  
+#slides .inner {
+    transition: margin-left 800ms 
+        cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 500px;
+}
+  
+#slides .frame {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+}
+  
+#slides .frame_1 {
+    background: url(images/big.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+#slides .frame_2 {
+    background: url(images/menen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+#slides .frame_3 {
+    background:url(images/pup4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+#slides .frame_4 {
+    background: url(images/lulu.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+  
+
+  
+#frame1:checked~#controls label:nth-child(2),
+#frame2:checked~#controls label:nth-child(3),
+#frame3:checked~#controls label:nth-child(4),
+#frame4:checked~#controls label:nth-child(1) {
+    background: url(images/marathon.jpg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+  
+#frame1:checked~#controls label:nth-last-child(2),
+#frame2:checked~#controls label:nth-last-child(3),
+#frame3:checked~#controls label:nth-last-child(4),
+#frame4:checked~#controls label:nth-last-child(1) {
+    background: url(images/nip.jpg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+  
+#bullets {
+    margin: 10px;
+    text-align: center;
+}
+  
+#bullets label {
     
-    }
-    .separatorhr{
-        display: none;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+    margin: 6rem 15px;
     
-    }
+}
+
+
+#bullets label:hover{
+    background: red;
+    transition: .4s;
     
-    
-    
-    /*slides*/
-    h2{
-        font-size: 4rem;
-    }
-    #frame {
-        
-        margin: 0 auto;
-        max-width: 100%;
-        text-align: center;
-        
-    }
-    
-      
-    #frame input[type=radio] {
-        display: none;
-        margin-top: 0rem;
-    }
-      
-    #frame label {
-        cursor: pointer;
-        
-    }
-    
-    #overflow {
-        max-width: 100%;
-        overflow: hidden;
-    }
-    
-    #slides {
-        height: 40rem;
-        padding: 1px;
-        max-width: 100%;
-        border: 1px solid rgb(0, 0, 0);
-        background: rgb(2, 2, 34);
-        position: inherit;
-        z-index: 1;
-        
-    }
-      
-    
-    #frame1:checked~#slides .inner {
-        margin-left: 0;
-    }
-      
-    #frame2:checked~#slides .inner {
-        margin-left: -100%;
-    }
-      
-    #frame3:checked~#slides .inner {
-        margin-left: -200%;
-    }
-      
-    #frame4:checked~#slides .inner {
-        margin-left: -300%;
-    }
-      
-    #slides .inner {
-        transition: margin-left 800ms 
-            cubic-bezier(0.770, 0.000, 0.175, 1.000);
-        width: 400%;
-        line-height: 0;
-        height: 500px;
-    }
-      
-    #slides .frame {
-        width: 25%;
-        float: left;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        color: #FFF;
-    }
-      
-    #slides .frame_1 {
-        background: url(images/big.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-      
-    #slides .frame_2 {
-        background: url(images/menen.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-      
-    #slides .frame_3 {
-        background:url(images/pup4.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-      
-    #slides .frame_4 {
-        background: url(images/lulu.png);
-        background-size: inherit;
-        background-repeat: no-repeat;
-    }
-      
-    
-      
-    #frame1:checked~#controls label:nth-child(2),
-    #frame2:checked~#controls label:nth-child(3),
-    #frame3:checked~#controls label:nth-child(4),
-    #frame4:checked~#controls label:nth-child(1) {
-        background: url(images/marathon.jpg) no-repeat;
-        float: right;
-        margin: 0 -50px 0 0;
-        display: block;
-    }
-      
-    #frame1:checked~#controls label:nth-last-child(2),
-    #frame2:checked~#controls label:nth-last-child(3),
-    #frame3:checked~#controls label:nth-last-child(4),
-    #frame4:checked~#controls label:nth-last-child(1) {
-        background: url(images/nip.jpg) no-repeat;
-        float: left;
-        margin: 0 0 0 -50px;
-        display: block;
-    }
-      
-    #bullets {
-        margin: 10px;
-        text-align: center;
-    }
-      
-    #bullets label {
-        
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-        background: rgb(255, 255, 255);
-        margin: 6rem 15px;
-        
-    }
-    
-    
-    #bullets label:hover{
-        background: red;
-        transition: .4s;
-        
-    
-    }
-      
-    #frame1:checked~#bullets label:nth-child(1),
-    #frame2:checked~#bullets label:nth-child(2),
-    #frame3:checked~#bullets label:nth-child(3),
-    #frame4:checked~#bullets label:nth-child(4) {
-        background: #444;
-    }
-    h3{
-        font-size: 2rem;
-        animation: fadeUp 1.1 forwards;
-        animation-delay: 3.4s;
-    }
-    
-    
-    
+
+}
+  
+#frame1:checked~#bullets label:nth-child(1),
+#frame2:checked~#bullets label:nth-child(2),
+#frame3:checked~#bullets label:nth-child(3),
+#frame4:checked~#bullets label:nth-child(4) {
+    background: #444;
+}
+h3{
+    font-size: 2rem;
+    animation: fadeUp 1.1 forwards;
+    animation-delay: 3.4s;
+}
+
+
+
 
 
 /*sections*/
@@ -534,12 +536,29 @@ footer{
     font-weight: lighter;
     color: snow;
 }
+#mc_embed_signup{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 
+}
+#mc_embed_signup_scroll{
+    text-align: center;    
 
+}
+#mce-FNAME{
+    width: 100%;
+    height: 1.7rem;
+
+}
+#mce-EMAIL{
+    width: 100%;
+    height: 1.7rem;
+
+}
 .email{
-    width: 19rem;
+    width: 30%;
     height: 1.8rem;
-    margin-right: .7rem;
     padding: 0rem;
     border: 0rem;
   
@@ -558,7 +577,7 @@ footer{
   font-size: 12px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 30%;
+  border-radius: 7px;
 
 }
 a{
@@ -608,7 +627,7 @@ a{
     transition: .4s;
 }
 #bottomhr{
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 
 
@@ -631,179 +650,187 @@ a{
 
     
 
-    .menuclicker{
-        margin-top: 1rem;
-        height: 3rem;
-        width: 3rem;
-        background-color: sienna;
-    
-        }
-    .menuclicker:hover{
-        background-color: silver;
-        transition: .7s;
-    
-        }
-        #mainH{
-            font-size: 4rem;
-        
-        }
-        .separatorhr{
-            display: block;
-        
-        }
-    
-    .writing{
-        padding: 0rem;
-        margin-left: 2rem;
-        font-size: 1.5rem;
-        
-        
-        
+.menuclicker{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 3rem;
+    background-color: sienna;
+
+    }
+.menuclicker:hover{
+    background-color: silver;
+    transition: .7s;
+
+    }
+    #mainH{
+        font-size: 4rem;
     
     }
-    .writing-left{
-        padding: 0rem;
-        margin-left: 2rem;
-        font-size: 1.5rem;
-    }
-    .first-s{
-        height: 40rem;
-    }
-    .second-s{
-        height: 40rem;
-    
-    }
-    .third-s{
-        height: 43.5rem;
-    
-    }
-    .lefts{
-        width: 90%;
-    
-        
-    }
-    .rights{
-        margin-right: 4rem;
-        text-align: left;
-        width: 90%;
-       
-    
-    }
-    #imgOne{
-        
-        margin-top: 5rem;
-        left: auto;
-        right: auto;
-        height: 20rem;
-        width: 20rem;
-    }
-    #imgTwo{
-        
-        margin-top: 5rem;
-        height: 20rem;
-        width: 20rem;
-    
-    }
-    #imgThree{
-        margin-top: 4rem;
-        left: auto;
-        right: auto;
-        height: 20rem;
-        width: 20rem;
-    
-    }
-    
-    #menu{
-        display: none;
-    }
-    
-    
-    .maindrop-li{
-        background-color: rgb(65, 65, 65);
-        margin-top: 4rem;
-        text-align: left;
+    .separatorhr{
         display: block;
-        color: ivory;
-        line-height: 4rem;
-        width: 60%;
-        top: 0rem;
-        padding: .5rem;
-        left: 0rem;
-        position: absolute;
-        z-index: 30;
-        animation: fadeDown .8s forwards;
-    }
-    
-    .toggler{
-        margin-top: 1rem;
-        display: block;
-    }
-    .siteDiv{
-       left: 1rem;
-       font-size: 1rem;
-    }
-    .numberDiv{
-        right: 1rem;
-        font-size: 1rem;
-      
-    }
-    .m-menu{
-        word-spacing: 0;
-    }
-    
-    .top-i{
-        display: none;
-    }
-    #top-iTwo{
-        margin-top: 2rem;
-        font-size: 2rem;
-        color: red;
-        display: block;
-    }
-    
-    footer{
-        height: 40rem;
-        font-size: 1rem;
-        
-    }
-    h3{
-        font-size: 1.4rem;
-    }
-    .btm-list{
-        margin-top: 2rem;
-        width: 100%;
-        line-height: 4rem;
-        left: 0rem;
-    }
-    
-    .btm-listrt{
-        margin-top: 18rem;
-        left: .5rem;
-        text-align: left;
-        
-        
-    }
-    .btm-listrtl{
-        margin-top: 33rem;
-        width: 100%;
-        text-align: left;
-        left: 0rem;
-    }
-    .btm-items{
-        line-height: 1.8rem;
-        
     
     }
-    .signup{
-        margin-top: 43rem;
-    }
-    .submit-btn{
-        margin-top: 1rem;
-    }
-    #bottomhr{
-        margin-top: 3rem;
-    }
-    }
+
+.writing{
+    padding: 0rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    
+    
+    
+
+}
+.writing-left{
+    padding: 0rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.first-s{
+    height: 40rem;
+}
+.second-s{
+    height: 40rem;
+
+}
+.third-s{
+    height: 43.5rem;
+
+}
+.lefts{
+    width: 90%;
+
+    
+}
+.rights{
+    margin-right: 4rem;
+    text-align: left;
+    width: 90%;
+   
+
+}
+#imgOne{
+    
+    margin-top: 5rem;
+    left: auto;
+    right: auto;
+    height: 20rem;
+    width: 20rem;
+}
+#imgTwo{
+    
+    margin-top: 5rem;
+    height: 20rem;
+    width: 20rem;
+
+}
+#imgThree{
+    margin-top: 4rem;
+    left: auto;
+    right: auto;
+    height: 20rem;
+    width: 20rem;
+
+}
+
+#menu{
+    display: none;
+}
+
+
+.maindrop-li{
+    background-color: rgb(65, 65, 65);
+    margin-top: 4rem;
+    text-align: left;
+    display: block;
+    color: ivory;
+    line-height: 4rem;
+    width: 60%;
+    top: 0rem;
+    padding: .5rem;
+    left: 0rem;
+    position: absolute;
+    z-index: 30;
+    animation: fadeDown .8s forwards;
+}
+
+.toggler{
+    margin-top: 1rem;
+    display: block;
+}
+.siteDiv{
+   left: 1rem;
+   font-size: 1rem;
+}
+.numberDiv{
+    right: 1rem;
+    font-size: 1rem;
+  
+}
+.m-menu{
+    word-spacing: 0;
+}
+
+.top-i{
+    display: none;
+}
+#top-iTwo{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: red;
+    display: block;
+}
+
+footer{
+    height: 40rem;
+    font-size: 1rem;
+    
+}
+h3{
+    font-size: 1.4rem;
+}
+.btm-list{
+    margin-top: 2rem;
+    width: 100%;
+    line-height: 4rem;
+    left: 0rem;
+}
+
+.btm-listrt{
+    margin-top: 18rem;
+    left: .5rem;
+    text-align: left;
+    
+    
+}
+.btm-listrtl{
+    margin-top: 33rem;
+    width: 100%;
+    text-align: left;
+    left: 0rem;
+}
+.btm-items{
+    line-height: 1.8rem;
+    
+
+}
+#mc_embed_signup{
+    width: 90%;
+
+}
+.signup{
+    margin-top: 43rem;
+}
+.submit-btn{
+    margin-top: 1rem;
+}
+#bottomhr{
+    margin-top: 3rem;
+}
+.siteDiv{
+
+   display: none;
+}
+}
 
 
 
@@ -828,4 +855,4 @@ a{
 .siteDiv{
 
     font-weight: 300;
-}    
+}
