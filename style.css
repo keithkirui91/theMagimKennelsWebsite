@@ -467,6 +467,14 @@ a{
     width: 50%;
 
 }
+#imgOneabout{
+    background-color: #000;
+    position: absolute;
+    margin-top: -20rem;
+    right: 2rem;
+    height: 20rem;
+    width: 50%;
+}
 
 
 
@@ -729,6 +737,18 @@ a{
     right: auto;
     height: 20rem;
     width: 20rem;
+
+}
+#imgOneabout{
+    
+    margin-top: 5rem;
+    left: auto;
+    right: auto;
+    height: 20rem;
+    width: 20rem;
+}
+#aboutsection{
+    height: 60rem;
 
 }
 
